@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Dongle'; /* https://fonts.google.com/specimen/Dongle/about */
+    src: url('Dongle-Light.ttf');
+}
+html {
+    color: white;
+    font-family: Dongle;
+}
+body {
+    background: no-repeat url("index.png");
+    background-size: cover;
+}
+main {
+    container-type: size;
+}
+h1, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    margin: 13% 0 0;
+    font-size: 10cqw;
+}
+p {
+    margin: 21% 0 0;
+    font-size: 4cqw;
+}
